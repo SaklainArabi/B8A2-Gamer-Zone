@@ -122,6 +122,73 @@ line-height: normal;
     border-radius: 48px;
     background-color:  #4EC5F7;
 }
+.main-section3{
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+    text-align: right;
+
+}
+.main-section3-img>img{
+    width: 700px;
+    height: 450px;
+}
+.main-section3-heading{
+    color: #8758F1;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main3{
+    text-align: center;
+}
+.main3-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+.main3-img img{
+    width: 200px;
+    height: 300px;
+}
+.main4{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.main4-content{
+    text-align: right;
+}
+.main4-img2{
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+}
+.btn-1,.btn-2,.btn-3,.btn-4{
+    border-radius: 50px;
+
+}
+footer{
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px 200px;
+    margin-top: 40px;
+}
+#ul-id{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
 
 
 
@@ -149,6 +216,25 @@ line-height: normal;
         width: 375px;
         height: 400px;
     }
+    .main-section3{
+        flex-direction: column;
+    }
+    .main-section3-content{
+        text-align: center;
+        margin: 0px 50px;
+    }
+    .main-section3-img>img{
+        width: 400px;
+        height: 375px;
+    }
+    .main3-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main4{
+        flex-direction: column;
+        margin-left: 10px;
+    }
 }
 /* responsive for tablegt */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -156,4 +242,14 @@ line-height: normal;
         margin: 0;
         flex-direction: column;
    }
+   .main-section3{
+    flex-direction: column;
+}
+.main-section3-content{
+    text-align: center;
+}
+.main3-img{
+    flex-direction: column;
+    align-items: center;
+}
 }
